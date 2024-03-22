@@ -5,6 +5,188 @@
 
 img{
     border-radius: 50%;
-    height: 100px;
+    height: 6rem;
     aspect-ratio: 1;
 }
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.445);
+    gap: 5rem;
+}
+
+.top-container{
+    display: flex;
+    align-items: flex-end;
+    padding: 10vh 10vw 0 10vw;
+    gap: 5rem;
+    position: relative;
+}
+
+.left-profile{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.24);
+}
+
+.top-div{
+    flex:3;
+    background: linear-gradient(30deg, teal 20%, skyblue);
+}
+
+.bottom-div{
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: .5rem;
+    position: relative;
+    bottom: 3rem;
+
+    >img{
+        border: 8px solid white
+    }
+}
+
+#small-name-span{
+    font-weight: 700;
+    color: navy;
+}
+
+#experience{
+    width: 75%;
+    font-size: .85rem;
+}
+
+#follow{
+    padding: .65rem 1.5rem;
+    font-size: .7rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: relative;
+    top: 1rem;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    &:hover{
+        cursor: pointer;
+        scale: 1.05;
+    }
+
+}
+
+.right-profile{
+    background-color: white;
+    padding: 2rem;
+    width: 22rem;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.24);
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+.right-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#big-name-span{
+    color: navy;
+    font-weight: 800;
+    font-size: 1.25rem;
+}
+
+#background{
+    font-size: .9rem;
+}
+
+#contact{
+    font-size: .75rem;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 6rem;
+    height: 2.1rem;
+    background-color: white;
+    color: navy;
+    border: 1px solid navy;
+    border-radius: 5px;
+
+    &:hover{
+        cursor: pointer;
+        scale: 1.05;
+    }
+}
+
+.bottom-container{
+    background-color: white;
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.24);
+    display: flex;
+    position: relative;
+    left: 5rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.middle-div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#bottom-name-span{
+    color: navy;
+    font-weight: 700;
+    font-size: 1.15rem;
+}
+
+.icon-container{
+    display: flex;
+    align-items: center;
+    font-size: .65rem;
+    gap: 1rem;
+}
+
+.icon-stuff{
+    display: flex;
+    align-items: center;
+    gap: .25rem;
+
+    >ion-icon{
+        font-size: 1.25rem;
+    }
+}
+
+#profile{
+    align-self: flex-start;
+    margin: -.5rem -.75rem 0 0 ;
+    padding: .65rem .75rem;
+    font-size: .7rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    position: relative;
+    background-color: navy;
+    color: white;
+    border: none;
+    border-radius: 5px;
+
+    &:hover{
+        cursor: pointer;
+        scale: 1.05;
+    }
+}
+
+
